@@ -1,0 +1,17 @@
+{
+  "name": "electron_sqlite3_rebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/rebuild": "^3.3.0",
+    "better-sqlite3": "^8.6.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1"
+  }
+}
