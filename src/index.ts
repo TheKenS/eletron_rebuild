@@ -39,4 +39,4 @@ const rebuildByElectronVersion = async (electronVersion: string) => {
   }
 };
 
-rebuildByElectronVersion('25.8.0');
+rebuildByElectronVersion('29.4.0');
