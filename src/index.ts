@@ -1,6 +1,6 @@
 import * as path from 'path';
 import * as fs from 'fs-extra';
-import rebuild from '@electron/rebuild';
+import { rebuild } from '@electron/rebuild';
 
 const archs = ['x64', 'arm64'];
 
@@ -39,4 +39,4 @@ const rebuildByElectronVersion = async (electronVersion: string) => {
   }
 };
 
-rebuildByElectronVersion('32.2.1');
+rebuildByElectronVersion('37.2.3');
